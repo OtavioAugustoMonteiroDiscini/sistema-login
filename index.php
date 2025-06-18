@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Simples</title>
+    <title>Login</title>
 </head>
 <body>
     <h2>Login</h2>
