@@ -5,9 +5,9 @@ name: CI via Workflow Reutilizável (correção)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
 
 jobs:
   login:
-    uses: OtavioAugustoMonteiroDiscini/php-workflows/.github/workflows/login.yml@master
+    uses: OtavioAugustoMonteiroDiscini/php-workflows/.github/workflows/login.yml@main
